@@ -1,0 +1,70 @@
+PACOTE DO PERFIL GITHUB - Henry28122025
+========================================
+
+ESTRUTURA
+---------
+README.md
+assets/
+  GifGithub.webp        <- você precisa colocar o SEU arquivo aqui
+scripts/
+  update_languages.py
+.github/
+  workflows/
+    update-languages.yml
+
+IMPORTANTE SOBRE O GIF
+----------------------
+Seu GitHub atual já usa o arquivo:
+assets/GifGithub.webp
+
+Por segurança, este ZIP NÃO substitui esse arquivo por uma imagem diferente.
+Antes de enviar o projeto ao GitHub, copie o seu GifGithub.webp atual para a pasta "assets".
+
+COMO USAR NO VS CODE
+--------------------
+1. Extraia o ZIP.
+2. Abra a pasta "Henry28122025-Profile" no VS Code.
+3. Coloque seu arquivo GifGithub.webp dentro de:
+   assets/GifGithub.webp
+
+4. Copie estes arquivos para o seu repositório de perfil Henry28122025:
+   - README.md
+   - scripts/update_languages.py
+   - .github/workflows/update-languages.yml
+   - assets/GifGithub.webp
+
+5. Faça commit e push.
+
+EXEMPLO PELO TERMINAL DO VS CODE
+--------------------------------
+Se você JÁ clonou o repositório:
+
+git add .
+git commit -m "Atualiza perfil e linguagens automáticas"
+git push
+
+DEPOIS DO PUSH
+--------------
+No GitHub:
+
+Actions
+→ Update Languages
+→ Run workflow
+→ Run workflow
+
+O Action vai:
+- consultar seus repositórios públicos;
+- ignorar forks;
+- ignorar o próprio repositório Henry28122025;
+- somar as linguagens detectadas pelo GitHub;
+- calcular as porcentagens;
+- atualizar automaticamente o README.md.
+
+Ele também executa automaticamente a cada 6 horas.
+
+OBSERVAÇÃO
+----------
+As porcentagens representam a quantidade de código detectada pelo GitHub
+em seus repositórios públicos. Não representam seu nível de conhecimento.
+
+Repositórios privados não entram por padrão.
